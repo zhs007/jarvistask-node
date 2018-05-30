@@ -1,0 +1,28 @@
+{
+  "name": "jarvistasknode",
+  "version": "0.0.1",
+  "description": "jarvis task node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhs007/jarvistask-node.git"
+  },
+  "keywords": [
+    "jarvis-task"
+  ],
+  "author": "zhs007",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zhs007/jarvistask-node/issues"
+  },
+  "homepage": "https://github.com/zhs007/jarvistask-node#readme",
+  "dependencies": {
+    "jarvis-net": "^0.1.5"
+  },
+  "bin": {
+    "jarvistasknode": "./bin/jarvistasknode.js"
+  }
+}
